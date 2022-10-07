@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BUBBLE GAME</title>
+</head>
+<body>
+    <div id="main">
+        <div id="nav">
+            <div class="show" id="score"><h4>Score:</h4><div class="sqr">0</div></div>
+            <div class="show" id="timer"><h4>Timer:</h4><div class="sqr">60</div></div>
+            <div class="show" id="hit"><h4>Hit:</h4><div class="sqr">9</div></div>
+            <div id="display-name"><h1>Player😎</h1></div>
+            <div id="lifeline">
+                <h1>Life:</h1>
+                <div id="heart">
+                    <h6>❤️</h6>
+                    <h6>❤️</h6>
+                    <h6>❤️</h6>
+                    <h6 id="red">❤️</h6>
+                </div>
+            </div>
+        </div>
+        <div id="bubble-cover">
+               <div id="display"><h1>GAME OVER</h1></div>
+        </div>
+        <div id="display">
+            <div id="display-box">
+              <h1>GAME OVER!</h1><div id="Final-Score">Score:<h5>0</h5></div>
+              <button id="start-again">Start Again</button>
+            </div>
+        </div>
+    </div>
+    <div id="main-cover">
+        <div id="line1"></div>
+        <img src="https://static.vecteezy.com/system/resources/previews/007/783/135/non_2x/game-logo-by-combining-bubble-shape-and-joystick-button-icon-free-vector.jpg" alt="">
+        <div id="line2"></div>
+        <div id="name">Enter Your Name: <input type="text" id="username" placeholder="Name"></div>
+        <button id="start">START</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
